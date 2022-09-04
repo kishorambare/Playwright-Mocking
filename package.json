@@ -1,0 +1,19 @@
+{
+  "name": "new-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test-us": "npx playwright test --update-snapshots"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.23.2"
+  },
+  "dependencies": {
+    "@alex_neo/playwright-azure-reporter": "^1.0.4"
+  }
+}
